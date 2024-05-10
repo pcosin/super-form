@@ -1,0 +1,128 @@
+:root {
+  --cl-green: #1cd1b0;
+  --cl-blue: #00669f;
+  --cl-black: #001d2d;
+  --cl-white: #fff;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Make images easier to work with */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top-banner {
+  background-color: var(--cl-green);
+}
+
+.top-banner-wrapper {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-block: 0.5rem;
+}
+
+.header-section-logo {
+  background-color: var(--cl-blue);
+}
+.header-section-logo-wrapper {
+  max-width: 1440px;
+  display: flex;
+  margin-inline: auto;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 1rem;
+}
+
+.nav {
+  background-color: hsla(202, 100%, 9%, 1);
+}
+
+.nav-wrapper {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-block: 1rem;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  list-style: none;
+}
+
+.nav-item a {
+  color: var(--cl-white);
+  text-decoration: none;
+}
+
+.cards {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-block: 2rem;
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 300px;
+  padding-block: 1.5rem;
+  padding-inline: 0.5rem;
+}
+
+.top-card {
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.bottom-card {
+  background-color: hsla(0, 0%, 95%, 1);
+}
+
+.img-hero {
+  border-radius: 50%;
+  margin-inline: auto;
+  margin-top: -25%;
+  z-index: 1;
+  position: relative;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--cl-black);
+  margin-block: 1rem;
+}
+
+.card-text {
+  color: var(--cl-black);
+  margin-block: 1rem;
+}
+.btn {
+  background-color: var(--cl-blue);
+  color: var(--cl-white);
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1rem;
+}
