@@ -135,8 +135,70 @@ body {
   padding-block: 2rem;
 }
 
+.form {
+  background-color: var(--cl-blue);
+  color: var(--cl-white);
+  border-radius: 49px;
+  max-width: 950px;
+  padding-block: 2rem;
+  margin-inline: auto;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding-block: 2rem;
+}
+
 .input-wrapper {
   display: flex;
   flex-direction: column;
+  gap: .4rem;
+  flex-basis: 340px;
+}
+
+.input-wrapper input, select, textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 15px;
+  border: none;
+  margin-block: .5rem;
+}
+
+.form-title {
+  text-align: center;
+  padding-block: .5rem;
+  font-size: 40px;
+}
+
+.form-subtitle {
+  text-align: center;
+  padding-block: .5rem;
+}
+
+
+
+.btn-form {
+  background-color: var(--cl-green);
+  color: var(--cl-black);
+  font-size: 40px;
+  padding: .5em 3.5em;
+  border-radius: 10px;
+  border: none;
+  margin-inline: auto;
+  margin-block: 1rem;
+  display: block;
+}
+
+.container-radio {
+  flex-basis: 340px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
-} 
+}
